@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme Mesh</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme Mesh</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kineme Interactive. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch loads and displays a mesh in Paul Bourke's format.</string>
+		<key>name</key>
+		<string>PBMesh</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image to place on the mesh</string>
+			<key>name</key>
+			<string>Image</string>
+		</dict>
+		<key>inputFile</key>
+		<dict>
+			<key>description</key>
+			<string>Absolute Path to the Mesh File</string>
+			<key>name</key>
+			<string>Mesh File</string>
+		</dict>
+		<key>inputTextureControl</key>
+		<dict>
+			<key>description</key>
+			<string>Controls texture wrapping/clamping</string>
+			<key>name</key>
+			<string>Texture Control</string>
+			<key>menu</key>
+			<array>
+				<string>Wrap</string>
+				<string>Clamp</string>
+			</array>
+		</dict>
+		<key>inputDeltaU</key>
+		<dict>
+			<key>description</key>
+			<string>Texture U coordinate offset</string>
+			<key>name</key>
+			<string>Delta U</string>
+		</dict>
+		<key>inputDeltaV</key>
+		<dict>
+			<key>description</key>
+			<string>Texture UV coordinate offset</string>
+			<key>name</key>
+			<string>Delta V</string>
+		</dict>
+		<key>inputXPos</key>
+		<dict>
+			<key>description</key>
+			<string>Mesh X Position</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputYPos</key>
+		<dict>
+			<key>description</key>
+			<string>Mesh Y Position</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZPos</key>
+		<dict>
+			<key>description</key>
+			<string>Mesh Z Position</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Mesh Width</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		<key>inputHeight</key>
+		<dict>
+			<key>description</key>
+			<string>Mesh Height</string>
+			<key>name</key>
+			<string>Height</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
